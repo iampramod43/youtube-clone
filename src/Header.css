@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+
+.header__left > img{
+    object-fit: contain;
+    height: 24px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+}
+
+.header__left > span {
+    font-size: 10px;
+    color: gray;
+    margin: 0px 0px 10px 2px;
+}
+
+.header__middle{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+
+.header__iconBox{
+    background-color: #f0f0f0;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    width: 65px;
+}
+
+.header__iconBox:hover{
+    background-color: #e7e7e7;
+}
+
+.header__iconBox > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.header__middle > form {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header__middle > form > input{
+    flex: 1;
+    height: 27px;
+    box-shadow: inset 0 0 10px #f3f3f3;
+    border: 1px solid #d3d3d3;
+    outline: none;
+}
+
+.header__middle > form > input:focus {
+    border: 1px solid #1c62b9;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0.2;
+}
+
+.header__avatar{
+    cursor: pointer;
+}
